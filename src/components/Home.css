@@ -1,0 +1,8 @@
+
+.home{
+    position: absolute;
+    width: 100%;
+    top: 10vh;
+    height: 80vh;
+    display: flex;
+}

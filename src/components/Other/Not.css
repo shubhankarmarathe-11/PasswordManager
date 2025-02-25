@@ -1,0 +1,19 @@
+.notfound{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.notfound h1{
+    color: #6296f9;
+    margin: 2vh;
+}
+
+.notfound li{
+    list-style: none;
+    color: purple;
+    text-decoration: underline;
+    cursor: pointer;
+}

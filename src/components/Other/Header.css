@@ -1,0 +1,26 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    /* background-color: red; */
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar ul li{
+    margin: 1vh 2vh;
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}

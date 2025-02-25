@@ -1,0 +1,79 @@
+.Logindiv{
+    background-color: rgb(249, 245, 245);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoginForm{
+    background-color: white;
+    height: 60vh;
+    padding: 2vh;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.LoginForm h3{
+    text-align: center;
+    margin: 2vh;
+    font-size: 20px;
+}
+
+.LoginForm input{
+    padding: 2vh;
+    margin: 2vh;
+}
+
+.LoginForm button{
+    padding: 2vh;
+    margin: 2vh;
+    cursor: pointer;
+}
+
+.LoginForm li{
+    text-align: center;
+    list-style-type: none;
+    cursor: pointer;
+    color: blue;
+}
+
+.SignupForm{
+    background-color: white;
+    height: 70vh;
+    padding: 2vh;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+
+.SignupForm h3{
+    text-align: center;
+    margin: 2vh;
+    font-size: 20px;
+}
+
+.SignupForm input{
+    padding: 2vh;
+    margin: 2vh;
+}
+
+.SignupForm button{
+    padding: 2vh;
+    margin: 2vh;
+    cursor: pointer;
+}
+
+.SignupForm li{
+    text-align: center;
+    list-style-type: none;
+    cursor: pointer;
+    color: blue;
+    /* color: #ff939347; */
+}

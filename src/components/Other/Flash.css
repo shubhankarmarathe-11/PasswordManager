@@ -1,0 +1,11 @@
+.flashdiv{
+    position: absolute;
+    width: 98%;
+    padding: 2vh;
+    overflow: hidden;
+}
+
+.flashdiv p{
+    font-weight: bolder;
+    margin: 0.5vh;
+}

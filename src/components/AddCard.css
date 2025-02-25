@@ -1,0 +1,79 @@
+.card {
+    position: absolute;
+    width: 100%;
+    top: 10vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(249, 245, 245);
+}
+
+.card h3{
+    text-align: center;
+    margin: 2vh;
+}
+
+.card form{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: 1vh auto;
+}
+
+.card form input{
+    padding: 2vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2vh;
+}
+
+.card form button{
+    padding: 2vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0.5vh 2vh;
+    cursor: pointer;
+}
+
+
+.carddiv{
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.card_box{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 20%;
+    height: 30vh;
+    margin: 2vh;
+    border: 1px solid black;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.card_box h3{
+    text-align: left;
+}
+
+.card_function{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.card_box li{
+    text-align: left;
+    list-style: none;
+    margin: 2vh;
+}
+
+.card_box i{
+    margin: 2vh;
+    font-size: 20px;
+    cursor: pointer;
+}
