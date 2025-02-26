@@ -9,6 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(cors());
+
 app.use(express.json());
 
 
@@ -19,5 +20,5 @@ app.get("/", (req, res) => {
 app.use(mainRoute);
 
 app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+    console.log(`Server running on http://192.168.5.28:${PORT}`);
 });

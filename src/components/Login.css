@@ -77,3 +77,69 @@
     color: blue;
     /* color: #ff939347; */
 }
+
+
+@media (max-width:1290px) {
+    .LoginForm{
+        width: 35%;
+    }
+
+    .SignupForm{
+        width: 35%;
+    }
+}
+
+
+@media (max-width:1100px) {
+    .LoginForm{
+        width: 40%;
+    }
+
+    .SignupForm{
+        width: 40%;
+    }
+}
+
+
+@media (max-width:1000px) {
+    .LoginForm{
+        width: 50%;
+    }
+
+    .SignupForm{
+        width: 50%;
+    }
+}
+
+
+@media (max-width:870px) {
+    .LoginForm{
+        width: 60%;
+    }
+
+    .SignupForm{
+        width: 60%;
+    }
+}
+
+
+@media (max-width:590px) {
+    .LoginForm{
+        width: 75%;
+    }
+
+    .SignupForm{
+        width: 75%;
+    }
+}
+
+
+@media (max-width:360px) {
+    .LoginForm{
+        width: 80%;
+    }
+
+    .SignupForm{
+        width: 80%;
+    }
+}
